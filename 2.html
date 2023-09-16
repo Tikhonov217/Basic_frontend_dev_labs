@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Разметка</title>
+    </head>
+    <body>
+<b><p>
+    Весь код должен быть написан в нижнем регистре. Это относится к названиям элементов и атрибутов, значениям атрибутов, 
+    селекторам, свойствам и их значениям (кроме текста). Текст внутри тегов можно писать с заглавной буквы в начале предложений, 
+    а для остального существует свойство text-transform: uppercase;
+</p></b> 
+<p><ins>
+    Валидная разметка – это код, который написан в соответствии с определенными стандартами. 
+    Их разработал Консорциум Всемирной Паутины – World Wide Web Consortium (W3C). При помощи таких инструментов, 
+    как W3С HTML Validator, можно проверить качество кода HTML и CSS. Написание валидного HTML оттачивает знание 
+    ограничений языка разметки и понимание технических требований.
+</ins></p>
+<p><code>
+    int brightness = 0;<br>
+    int led1 = 9;<br>
+    int led2 = 10;<br>
+    int led3 = 11;<br>
+    void setup(){<br>
+    for(int i = 9; i12; i++)<br>
+    pinMode(i, OUTPUT);<br>
+    }<br>
+    void loop(){<br>
+    digitalWrite(led1, HIGH);<br>
+    digitalWrite(led3, LOW);<br>
+    delay(500);<br>
+    digitalWrite(led1, LOW);<br>
+    digitalWrite(led2, HIGH);<br>
+    delay(500);<br>
+    digitalWrite(led2, LOW);<br>
+    digitalWrite(led3, HIGH);<br>
+    delay(500);<br>
+    }<br>
+</body>
+</html>
